@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> "DADO"
+  <title>Dado</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .die {
+      width: 100px;
+      height: 100px;
+      background-color: #333;
+      color: white;
+      font-size: 2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="die" id="die">1</div>
+  <button onclick="rollDie()">Roll</button>
+
+  <script>
+    function rollDie() {
+      var die = document.getElementById('die');
+      var randomNumber = Math.floor(Math.random() * 6) + 1;
+      die.textContent = randomNumber;
+    }
+  </script>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Imagen</title>
+</head>
+<body>
+
+<h1>¡Proyecto de programacion room 8!</h1>
+
+<img src="C:\Users\carlos\mi pagina" alt="UPMF">
+
+</body>
+</html>
+
+
